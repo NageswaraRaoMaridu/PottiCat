@@ -1,0 +1,57 @@
+/**
+ * Created by nrmaridu on 10/28/2017.
+ */
+@import 'https://fonts.googleapis.com/css?family=Pacifico';
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-family: "pacifico";
+    color: #333;
+    background: white;
+    font-size: 80%;
+}
+#page {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 10px;
+}
+
+#page h1 {
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    color: slateblue;
+}
+
+#page h1 small {
+    font-weight: normal;
+    font-size: 18px;
+    display: block;
+    color: #60c814;
+    letter-spacing: 0;
+}
+
+
+.skitter-animations { text-align: center; margin: 20px 0 10px 0; }
+.skitter-animations h3 { text-transform: uppercase; margin: 0 0 10px 0; }
+.skitter-animations ul { }
+.skitter-animations ul li { display: inline-block; }
+.skitter-animations ul li a { display: inline-block; color: black; text-transform: capitalize; text-decoration: none; font-size: 14px; border-bottom: 1px solid; margin: 0 5px 10px 5px; }
+.skitter-animations ul li a.active { color: #999; }
+
+/* ------------------------------------------
+  Skitter custom settings
+---------------------------------------------*/
+.skitter-large-box {
+    width: 100%;
+}
+.skitter-small-box {
+    max-width: 400px;
+}
+.skitter-medium-box {
+    max-width: 500px;
+}
