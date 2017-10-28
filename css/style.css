@@ -37,10 +37,10 @@ body{
 
 
 .skitter-animations { text-align: center; margin: 20px 0 10px 0; }
-.skitter-animations h3 { text-transform: uppercase; margin: 0 0 10px 0; }
+.skitter-animations h3 {font-family: "Times New Roman"; text-transform: uppercase; margin: 0 0 10px 0; }
 .skitter-animations ul { }
 .skitter-animations ul li { display: inline-block; }
-.skitter-animations ul li a { display: inline-block; color: black; text-transform: capitalize; text-decoration: none; font-size: 14px; border-bottom: 1px solid; margin: 0 5px 10px 5px; }
+.skitter-animations ul li a { display: inline-block; color: black; text-transform: capitalize;font-family: Arial !important; text-decoration: none; font-size: 14px; border-bottom: 1px solid; margin: 0 5px 10px 5px; }
 .skitter-animations ul li a.active { color: #999; }
 
 /* ------------------------------------------
